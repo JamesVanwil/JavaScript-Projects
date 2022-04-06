@@ -14,8 +14,8 @@ function Time_function() { //Time function with if and else statements
 }
 
 function get_Date() { //Function with if statement
-    if (new Date().getHours < 18) {
-        document.getElementById("Hello").innerHTML = "How is your day?";
+    if (new Date().getHours() < 18) {
+        document.getElementById("Hello_you").innerHTML = "How is your day?";
     }
 }
 
